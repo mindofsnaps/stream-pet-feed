@@ -1,0 +1,30 @@
+{
+  "name": "stream-pet-feed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hostable pet picture feed for streamers — viewers submit pet photos, you approve them, approved pets rotate through an OBS browser-source overlay.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "jose": "^5.9.0",
+    "next": "15.5.19",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "15.5.19",
+    "typescript": "^5.7.0"
+  }
+}
